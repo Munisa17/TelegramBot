@@ -4,7 +4,6 @@ import asyncio
 import logging
 # from aiogram.enums import ParseMode
 from config import TOKEN,ADMINS
-API_TOKEN = "8702890630:AAGqmiKFR5K8anz3ckkacHZ7qCwKR-NlYbI"
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
