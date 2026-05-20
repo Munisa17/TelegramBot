@@ -3,16 +3,15 @@ from handler import setup_message_routers
 import asyncio
 import logging
 # from aiogram.enums import ParseMode
-
-API_TOKEN = "8702890630:AAGqmiKFR5K8anz3ckkacHZ7qCwKR-NlYbI"
-bot = Bot(token=API_TOKEN)
+from config import TOKEN,ADMINS
+bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
 
 
 async def on_startup(dispatcher: Dispatcher):
     """Bot ishga tushganda admin userga xabar yuboradi."""
-    await bot.send_message(chat_id="1556707360", text="Bot ishga tushdi")
+    await bot.send_message(ADMINS="1556707360", text="Bot ishga tushdi")
     logging.info("Bot ishga tushganligi haqida xabar yuborildi.")
 
 
