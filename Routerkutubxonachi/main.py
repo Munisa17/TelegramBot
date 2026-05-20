@@ -11,8 +11,8 @@ dp = Dispatcher()
 
 async def on_startup(dispatcher: Dispatcher):
     """Bot ishga tushganda admin userga xabar yuboradi."""
-    await bot.send_message(ADMINS="1556707360", text="Bot ishga tushdi")
-    logging.info("Bot ishga tushganligi haqida xabar yuborildi.")
+    # await bot.send_message(chat_id=str(ADMINS), text="Bot ishga tushdi")
+    # logging.info("Bot ishga tushganligi haqida xabar yuborildi.")
 
 
 async def main():
