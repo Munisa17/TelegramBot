@@ -1,5 +1,5 @@
 from aiogram import types, Router, F
-from Routerkutubxonachi.keyboard.default.fan8aniq import fan8aniq
+from ....keyboard.default.fan8aniq import fan8aniq
 from aiogram.types import FSInputFile
 
 router = Router()

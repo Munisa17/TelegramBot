@@ -1,5 +1,5 @@
 from aiogram import types, Router, F
-from Routerkutubxonachi.keyboard.default.fan6 import fan6
+from ..keyboard.default.fan6 import fan6
 
 router = Router()
 
