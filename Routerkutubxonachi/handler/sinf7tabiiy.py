@@ -1,5 +1,5 @@
 from aiogram import types, Router, F
-from Routerkutubxonachi.keyboard.default.fan7tabiiy import fan7tabiiy
+from ..keyboard.default.fan7tabiiy import fan7tabiiy
 from aiogram.types import FSInputFile
 
 router = Router()

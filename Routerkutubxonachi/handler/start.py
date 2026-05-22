@@ -1,6 +1,6 @@
 from aiogram import types, Router, F
 from aiogram.filters import Command
-from Routerkutubxonachi.keyboard.default.main_keyboard import menu
+from ..keyboard.default.main_keyboard import menu
 
 router = Router()
 

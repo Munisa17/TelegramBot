@@ -1,26 +1,26 @@
 from aiogram import Router
 from . import start, help, sinf5, orqagabutton, sinf6, sinf7, sinf7tabiiy, sinf7aniq,sinf8aniq,sinf8,sinf8tabiiy,sinf9,sinf9aniq,sinf9tabiiy,sinf10,sinf10aniq,sinf10tabiiy,sinf11,sinf11aniq,sinf11tabiiy
-from Routerkutubxonachi.handler.papka5 import Onatili5sinf,informatika5,rustili5,art5,tabiiyfan5,adabiyot5,tarbiya5,matematika5,ingliztili5,tarix5,jismoniy5
-from Routerkutubxonachi.handler.papka6 import Onatili6sinf,informatika6,rustili6,art6,tabiiyfan6,adabiyot6,tarbiya6,matematika6,ingliztili6,tarix6,jismoniy6
-from Routerkutubxonachi.handler.papka7.papka7aniq import ozbjahon7aniq,Onatili7aniq,informatika7aniq,rustili7aniq,art7aniq,adabiyot7aniq,tarbiya7aniq,ingliztili7aniq,jismoniy7aniq,algebra7aniq,\
+from .papka5 import Onatili5sinf,informatika5,rustili5,art5,tabiiyfan5,adabiyot5,tarbiya5,matematika5,ingliztili5,tarix5,jismoniy5
+from .papka6 import Onatili6sinf,informatika6,rustili6,art6,tabiiyfan6,adabiyot6,tarbiya6,matematika6,ingliztili6,tarix6,jismoniy6
+from .papka7.papka7aniq import ozbjahon7aniq,Onatili7aniq,informatika7aniq,rustili7aniq,art7aniq,adabiyot7aniq,tarbiya7aniq,ingliztili7aniq,jismoniy7aniq,algebra7aniq,\
     geometriya7aniq,geografiya7aniq,ozbtarix7aniq,jahon7aniq,fizika7aniq,biologiya7aniq,kimyo7aniq,robot7aniq
-from Routerkutubxonachi.handler.papka7.papka7tabiiy import Onatili7tabiiy,informatika7tabiiy,rustili7tabiiy,art7tabiiy,adabiyot7tabiiy,tarbiya7tabiiy,ingliztili7tabiiy,jismoniy7tabiiy,algebra7tabiiy,\
+from .papka7.papka7tabiiy import Onatili7tabiiy,informatika7tabiiy,rustili7tabiiy,art7tabiiy,adabiyot7tabiiy,tarbiya7tabiiy,ingliztili7tabiiy,jismoniy7tabiiy,algebra7tabiiy,\
     geometriya7tabiiy,geografiya7tabiiy,ozbtarix7tabiiy,jahon7tabiiy,fizika7tabiiy,biologiya7tabiiy,kimyo7tabiiy,robot7tabiiy,ozbjahon7tabiiy
-from Routerkutubxonachi.handler.papka8.papka8aniq import ozbjahon8aniq,Onatili8aniq,informatika8aniq,rustili8aniq,art8aniq,adabiyot8aniq,tarbiya8aniq,ingliztili8aniq,jismoniy8aniq,algebra8aniq,\
+from .papka8.papka8aniq import ozbjahon8aniq,Onatili8aniq,informatika8aniq,rustili8aniq,art8aniq,adabiyot8aniq,tarbiya8aniq,ingliztili8aniq,jismoniy8aniq,algebra8aniq,\
     geometriya8aniq,geografiya8aniq,ozbtarix8aniq,jahon8aniq,fizika8aniq,biologiya8aniq,kimyo8aniq,robot8aniq
-from Routerkutubxonachi.handler.papka8.papka8tabiiy import Onatili8tabiiy,informatika8tabiiy,rustili8tabiiy,art8tabiiy,adabiyot8tabiiy,tarbiya8tabiiy,ingliztili8tabiiy,jismoniy8tabiiy,algebra8tabiiy,\
+from .papka8.papka8tabiiy import Onatili8tabiiy,informatika8tabiiy,rustili8tabiiy,art8tabiiy,adabiyot8tabiiy,tarbiya8tabiiy,ingliztili8tabiiy,jismoniy8tabiiy,algebra8tabiiy,\
     geometriya8tabiiy,geografiya8tabiiy,ozbtarix8tabiiy,jahon8tabiiy,fizika8tabiiy,biologiya8tabiiy,kimyo8tabiiy,robot8tabiiy,ozbjahon8tabiiy
-from Routerkutubxonachi.handler.papka9.papka9aniq import ozbjahon9aniq,Onatili9aniq,informatika9aniq,rustili9aniq,art9aniq,adabiyot9aniq,tarbiya9aniq,ingliztili9aniq,jismoniy9aniq,algebra9aniq,\
+from .papka9.papka9aniq import ozbjahon9aniq,Onatili9aniq,informatika9aniq,rustili9aniq,art9aniq,adabiyot9aniq,tarbiya9aniq,ingliztili9aniq,jismoniy9aniq,algebra9aniq,\
     geometriya9aniq,geografiya9aniq,ozbtarix9aniq,jahon9aniq,fizika9aniq,biologiya9aniq,kimyo9aniq,suniy9aniq
-from Routerkutubxonachi.handler.papka9.papka9tabiiy import ozbjahon9tabiiy,Onatili9tabiiy,informatika9tabiiy,rustili9tabiiy,art9tabiiy,adabiyot9tabiiy,tarbiya9tabiiy,ingliztili9tabiiy,jismoniy9tabiiy,algebra9tabiiy,\
+from .papka9.papka9tabiiy import ozbjahon9tabiiy,Onatili9tabiiy,informatika9tabiiy,rustili9tabiiy,art9tabiiy,adabiyot9tabiiy,tarbiya9tabiiy,ingliztili9tabiiy,jismoniy9tabiiy,algebra9tabiiy,\
     geometriya9tabiiy,geografiya9tabiiy,ozbtarix9tabiiy,jahon9tabiiy,fizika9tabiiy,biologiya9tabiiy,kimyo9tabiiy,suniy9tabiiy
-from Routerkutubxonachi.handler.papka10.papka10tabiiy import ozbjahon10tabiiy,Onatili10tabiiy,informatika10tabiiy,rustili10tabiiy,adabiyot10tabiiy,tarbiya10tabiiy,ingliztili10tabiiy,jismoniy10tabiiy,algebra10tabiiy,\
+from .papka10.papka10tabiiy import ozbjahon10tabiiy,Onatili10tabiiy,informatika10tabiiy,rustili10tabiiy,adabiyot10tabiiy,tarbiya10tabiiy,ingliztili10tabiiy,jismoniy10tabiiy,algebra10tabiiy,\
     geometriya10tabiiy,ozbtarix10tabiiy,jahon10tabiiy,fizika10tabiiy,biologiya10tabiiy,kimyo10tabiiy,chqbt10tabiiy
-from Routerkutubxonachi.handler.papka10.papka10aniq import ozbjahon10aniq,Onatili10aniq,informatika10aniq,rustili10aniq,adabiyot10aniq,tarbiya10aniq,ingliztili10aniq,jismoniy10aniq,algebra10aniq,\
+from .papka10.papka10aniq import ozbjahon10aniq,Onatili10aniq,informatika10aniq,rustili10aniq,adabiyot10aniq,tarbiya10aniq,ingliztili10aniq,jismoniy10aniq,algebra10aniq,\
     geometriya10aniq,ozbtarix10aniq,jahon10aniq,fizika10aniq,biologiya10aniq,kimyo10aniq,chqbt10aniq
-from Routerkutubxonachi.handler.papka11.papka11aniq import ozbjahon11aniq,Onatili11aniq,informatika11aniq,rustili11aniq,adabiyot11aniq,tarbiya11aniq,ingliztili11aniq,jismoniy11aniq,algebra11aniq,\
+from .papka11.papka11aniq import ozbjahon11aniq,Onatili11aniq,informatika11aniq,rustili11aniq,adabiyot11aniq,tarbiya11aniq,ingliztili11aniq,jismoniy11aniq,algebra11aniq,\
     geometriya11aniq,ozbtarix11aniq,jahon11aniq,fizika11aniq,biologiya11aniq,kimyo11aniq,chqbt11aniq
-from Routerkutubxonachi.handler.papka11.papka11tabiiy import ozbjahon11tabiiy,Onatili11tabiiy,informatika11tabiiy,rustili11tabiiy,adabiyot11tabiiy,tarbiya11tabiiy,ingliztili11tabiiy,jismoniy11tabiiy,algebra11tabiiy,\
+from .papka11.papka11tabiiy import ozbjahon11tabiiy,Onatili11tabiiy,informatika11tabiiy,rustili11tabiiy,adabiyot11tabiiy,tarbiya11tabiiy,ingliztili11tabiiy,jismoniy11tabiiy,algebra11tabiiy,\
     geometriya11tabiiy,ozbtarix11tabiiy,jahon11tabiiy,fizika11tabiiy,biologiya11tabiiy,kimyo11tabiiy,chqbt11tabiiy
 
 def setup_message_routers():

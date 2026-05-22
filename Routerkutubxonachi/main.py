@@ -1,9 +1,14 @@
+import sys
+import os
+# Ensure the parent directory is in sys.path so relative imports work correctly
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from aiogram import Bot, Dispatcher
-from handler import setup_message_routers
+from Routerkutubxonachi.handler import setup_message_routers
 import asyncio
 import logging
 # from aiogram.enums import ParseMode
-from config import TOKEN,ADMINS
+from Routerkutubxonachi.config import TOKEN, ADMINS
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
 
@@ -11,8 +16,8 @@ dp = Dispatcher()
 
 async def on_startup(dispatcher: Dispatcher):
     """Bot ishga tushganda admin userga xabar yuboradi."""
-    await bot.send_message(ADMINS="1556707360", text="Bot ishga tushdi")
-    logging.info("Bot ishga tushganligi haqida xabar yuborildi.")
+    # await bot.send_message(chat_id=str(ADMINS), text="Bot ishga tushdi")
+    # logging.info("Bot ishga tushganligi haqida xabar yuborildi.")
 
 
 async def main():
